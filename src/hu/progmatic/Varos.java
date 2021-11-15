@@ -14,7 +14,7 @@ public class Varos {
   }
 
   public void setUrhajok(int index, Urhajo urhajo) {
-    if (index < 0 || index > urhajok.length) {
+    if (index < 0 || index >= urhajok.length) {
       throw new RuntimeException();
     }
   }
