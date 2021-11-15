@@ -3,13 +3,13 @@ package hu.progmatic;
 public class Varos {
   public static int sebessegHatar;
   final String nev;
-  private int[] urhajok;
+  private Urhajo[] urhajok;
 
   public Varos(String nev, Urhajo[] urhajok) {
     this.nev = nev;
   }
 
-  public int[] getUrhajok() {
+  public Urhajo[] getUrhajok() {
     return urhajok;
   }
 
