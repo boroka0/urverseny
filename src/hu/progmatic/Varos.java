@@ -13,7 +13,7 @@ public class Varos {
     return urhajok;
   }
 
-  public void setUrhajok(int index, Urhajo urhajo) {
+  public void setUrhajok(int index, Urhajo[] urhajok) {
     if (index < 0 || index >= urhajok.length) {
       throw new RuntimeException();
     }
